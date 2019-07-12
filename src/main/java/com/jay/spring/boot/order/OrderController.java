@@ -12,6 +12,7 @@ public class OrderController
     @GetMapping("/order/1")
     public String get()
     {
+        System.out.println("requesting order ==get method");
         return "{\"id\": 1," + "\"name\": \"iPhone\"," + "\"price\": 8888" + "}";
     }
 }
